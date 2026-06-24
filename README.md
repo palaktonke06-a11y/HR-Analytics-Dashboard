@@ -1,42 +1,215 @@
-📊 Project Name: HR Workforce Analytics & Retention Dashboard
+# 👥 HR Workforce Analytics & Retention Dashboard
 
-📝 Project Overview
-This project addresses the critical corporate challenge of tracking workforce demographics, analyzing employee distribution, and understanding talent retention factors. The objective was to eliminate disjointed HR spreadsheets and build a centralized operational view. By developing this interactive dashboard, I provided a data-driven solution that enables HR managers to audit organizational tenure, identify gaps in employee performance and education fields, evaluate salary hike distributions, and monitor how overtime correlates with workload across different job roles.
+---
 
-🚀 Key Features & Insights
-Tenure & Experience Tracking: Measures total working years, time spent at the current company, and years since the last promotion to monitor promotion pipelines.
-Compensation & Performance Auditing: Cross-examines performance ratings against overall percentage salary hikes.
-Work-Life Balance Indicators: Breaks down total employee metrics by overtime status and role to pinpoint groups prone to high utilization.
+## 📝 Project Overview
 
-1. Workforce Profile & Demographics Overview
+The HR Workforce Analytics & Retention Dashboard was developed to help organizations centralize workforce data, monitor employee performance, analyze retention factors, and improve workforce planning. HR teams often manage employee information across multiple spreadsheets and systems, making it difficult to identify workforce trends and make strategic decisions.
 
-Visuals Breakdown:
-KPI Cards: High-level summary metrics displaying Sum of Total Working Years (17K), Sum of Years Since Last Promotion (3K), Sum of Years At Company (10K), Sum of Daily Rate (1M), and Sum of Relationship Satisfaction (4K).
-Donut Chart (Performance Rating): Breaks down workforce performance levels, showing that a massive majority (80.54%) sit at a high performance tier.
-Donut Chart (Total Percent Salary Hike): Segments the spread of employee salary hikes across diverse percentage brackets (ranging from 11 to 19).
-Horizontal Bar Chart (Total Education Field): Ranks the educational background counts of the team, proving that Life Sciences and Medical fields make up the dominant share of talent.
-Area Chart (Total Companies Worked): Tracks the background diversity of the staff by plotting the sum of job levels against the exact count of previous companies worked.
-Clustered Column Chart (Job role, level, investment): Compares the Sum of Job Level alongside the Sum of Job Involvement across key roles like Sales Executives, Research Scientists, and Managers.
-Interactive Slicer: A top-level dropdown slicer filtering the workspace by specific Job Roles (e.g., Healthcare Representative, Human Resources).
+This dashboard provides a unified analytical view of employee demographics, tenure, compensation, performance ratings, job satisfaction, and attrition indicators. Through interactive visualizations, HR managers can identify retention risks, evaluate workforce diversity, and support data-driven talent management strategies.
 
-2. Attrition Drivers & Role Breakdown
+---
 
-Visuals Breakdown:
-Pie Chart (Total Employee Count Gender): Illustrates the organizational gender diversity split, tracking Male (60.07%) and Female staff members.
-Gauge Chart (Total of Job): Tracks absolute role metrics, showing an active operational tracking pool of 3,056 items.
-Stacked Column Chart (Employee Number by NumCompaniesWorked and OverTime): Visualizes how overtime demands (Yes/No splits) are distributed against the number of historical companies employees have worked for.
-Scatter Plot (Total of ratings): Maps employee financial variables by plotting the Sum of Hourly Rate against the Sum of Monthly Rate, colored cleanly by target Job Roles.
-Data Matrix Tables: Detailed grids providing an exhaustive tabular breakdown of Job Satisfaction, Monthly Income, Business Travel frequencies, Employee Counts, and Age segments to extract granular row-level data.
+## 🚀 Key Features & Insights
 
-🛠️ Tech Stack Used
-Tool: Power BI Desktop
-Data Source: Human Resources Information System (HRIS) Dataset (Excel / CSV)
-DAX Functions & Metrics: Sum of Total Working Years, Performance Percentage Breakdown, Employee Counts, Hourly/Monthly Rate Aggregations, and Tenure tracking
+### 📅 Employee Tenure & Experience Analysis
+- Track total working years and organizational tenure.
+- Monitor years since last promotion.
+- Analyze employee career progression patterns.
 
-📷 Dashboard Screenshots
+### 💰 Compensation & Performance Monitoring
+- Evaluate salary hike distributions.
+- Compare performance ratings across employees.
+- Identify compensation and performance relationships.
 
-1. Workforce Profile & Demographics Overview
-<img src="Screenshot 2026-06-14 130735.png" width="100%">
+### ⚖️ Workforce Utilization Analysis
+- Monitor overtime distribution across job roles.
+- Analyze employee workload patterns.
+- Identify departments with higher utilization levels.
 
-2. Attrition Drivers & Role Breakdown
-<img src="Screenshot 2026-06-14 130954.png" width="100%">
+### 🎓 Workforce Demographics & Education
+- Explore educational background distribution.
+- Analyze workforce diversity metrics.
+- Understand employee profile composition.
+
+---
+
+# 📊 Dashboard 1: Workforce Profile & Demographics Overview
+
+### Visuals Included
+
+#### 🔹 KPI Cards
+Displays key workforce metrics:
+- Total Working Years
+- Years Since Last Promotion
+- Years at Company
+- Daily Rate
+- Relationship Satisfaction
+
+#### 🔹 Performance Rating Analysis
+Donut chart showing:
+- Employee performance distribution
+- High-performing workforce segments
+- Performance category breakdown
+
+#### 🔹 Salary Hike Distribution
+Donut chart displaying:
+- Percentage salary hike allocation
+- Compensation growth analysis
+- Salary increase patterns
+
+#### 🔹 Education Field Analysis
+Horizontal bar chart ranking:
+- Life Sciences
+- Medical
+- Marketing
+- Technical Degree
+- Other Educational Fields
+
+#### 🔹 Previous Companies Worked Analysis
+Area chart visualizing:
+- Employee career history
+- Previous company experience
+- Workforce background diversity
+
+#### 🔹 Job Role & Involvement Analysis
+Clustered column chart comparing:
+- Job Level
+- Job Involvement
+- Role-wise workforce contribution
+
+#### 🔹 Interactive Job Role Slicer
+Dynamic filtering by:
+- Sales Executive
+- Research Scientist
+- Human Resources
+- Healthcare Representative
+- Manager and Other Roles
+
+### 📷 Dashboard Screenshot
+
+![Workforce Profile Dashboard](Screenshot%202026-06-14%20130735.png)
+
+---
+
+# 📊 Dashboard 2: Attrition Drivers & Role Breakdown
+
+### Visuals Included
+
+#### 🔹 Gender Diversity Analysis
+Pie chart displaying:
+- Male Employees
+- Female Employees
+- Workforce gender distribution
+
+#### 🔹 Workforce Capacity Gauge
+Gauge chart showing:
+- Total Job Metrics
+- Organizational workforce scale
+- Workforce monitoring indicators
+
+#### 🔹 Overtime & Employee History Analysis
+Stacked column chart visualizing:
+- Employee Count
+- Number of Companies Worked
+- Overtime Distribution (Yes/No)
+
+#### 🔹 Employee Compensation Scatter Analysis
+Scatter plot comparing:
+- Hourly Rate
+- Monthly Rate
+- Job Role Segmentation
+- Compensation Distribution
+
+#### 🔹 Detailed HR Matrix Tables
+Comprehensive workforce breakdown including:
+- Job Satisfaction
+- Monthly Income
+- Business Travel Frequency
+- Employee Counts
+- Age Distribution
+
+### 📷 Dashboard Screenshot
+
+![Attrition Drivers Dashboard](Screenshot%202026-06-14%20130954.png)
+
+---
+
+## 🛠️ Tech Stack
+
+- Power BI Desktop
+- Power Query
+- DAX (Data Analysis Expressions)
+- HRIS Dataset (Excel / CSV)
+- Data Modeling & Relationships
+
+### Key DAX Metrics
+
+- Total Working Years
+- Years at Company
+- Years Since Last Promotion
+- Employee Count
+- Salary Hike Percentage
+- Job Satisfaction Metrics
+- Hourly Rate Analysis
+- Monthly Income Analysis
+- Overtime Distribution
+
+---
+
+## 📂 Dataset
+
+The dataset contains Human Resource Information System (HRIS) records including:
+
+- Employee Demographics
+- Job Roles
+- Education Fields
+- Salary Information
+- Performance Ratings
+- Overtime Status
+- Job Satisfaction Scores
+- Monthly Income
+- Business Travel Records
+- Tenure Information
+
+---
+
+## 📈 Skills Demonstrated
+
+- Data Cleaning & Transformation
+- Data Modeling
+- DAX Calculations
+- HR Analytics
+- Workforce Analytics
+- Attrition Analysis
+- Compensation Analysis
+- KPI Development
+- Interactive Dashboard Design
+- Business Intelligence Reporting
+
+---
+
+## 🎯 Business Value
+
+✅ Monitor employee retention and workforce trends
+
+✅ Analyze compensation and performance relationships
+
+✅ Evaluate overtime and workload distribution
+
+✅ Understand workforce demographics and diversity
+
+✅ Identify potential attrition risk indicators
+
+✅ Support strategic HR and talent management decisions
+
+---
+
+## 🔗 Project Link
+
+### GitHub Repository
+
+👉https://github.com/palaktonke06-a11y/HR-Analytics-Dashboard
+---
+
+⭐ If you found this project useful, don't forget to star the repository.
